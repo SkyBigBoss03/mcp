@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19237078-713c-407d-a01d-fd03baed6527" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../mcp-manage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mcp-manage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mcp-manage/target/classes/com/iflytek/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mcp-manage/target/classes/spring/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mcp-manage/target/classes/spring/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mcp-manage/target/mcp/WEB-INF/classes/com/iflytek/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mcp-manage/target/mcp/WEB-INF/classes/spring/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mcp-manage/target/mcp/WEB-INF/classes/spring/application.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../mcp-manage/out/" />
     <ignored path="$PROJECT_DIR$/../mcp-manage/target/" />
@@ -75,10 +70,13 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="184">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,7 +163,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -395,12 +393,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529152748939</updated>
-      <workItem from="1529152750808" duration="11364000" />
+      <workItem from="1529152750808" duration="11558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11364000" />
+    <option name="totallyTimeSpent" value="11558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="680" extended-state="0" />
@@ -425,15 +423,15 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1160221" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.3296501" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1160221" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3296501" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8021978" visible="true" weight="0.24958402" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85" visible="true" weight="0.24958402" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" sideWeight="0.1978022" side_tool="true" visible="true" weight="0.24958402" />
+      <window_info id="Favorites" sideWeight="0.15" side_tool="true" visible="true" weight="0.24958402" />
       <window_info anchor="bottom" id="Database Console" weight="0.3290441" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -588,10 +586,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="184">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,7 +663,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

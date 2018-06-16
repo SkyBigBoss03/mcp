@@ -3,11 +3,65 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:tx="http://www.springframework.org/schema/tx"
-       xmlns:util="http://www.springframework.org/schema/util"
+
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
-	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
-    <context:component-scan base-package="com.iflytek"/>
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	">
+    <context:component-scan base-package="com.iflytek.manage"/>
 
+    <!--引入外部头文件-->
+    <bean id="placeholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:/properties/jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+    <!-- spring整合mybatis-->
+    <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource">
+        <!-- 数据库驱动 -->
+        <property name="driverClass" value="${jdbc.driver}" />
+        <!-- 相应驱动的jdbcUrl -->
+        <property name="jdbcUrl" value="${jdbc.url}" />
+        <!-- 数据库的用户名 -->
+        <property name="username" value="${jdbc.username}" />
+        <!-- 数据库的密码 -->
+        <property name="password" value="${jdbc.password}" />
+        <!-- 检查数据库连接池中空闲连接的间隔时间，单位是分，默认值：240，如果要取消则设置为0 -->
+        <property name="idleConnectionTestPeriod" value="60" />
+        <!-- 连接池中未使用的链接最大存活时间，单位是分，默认值：60，如果要永远存活设置为0 -->
+        <property name="idleMaxAge" value="30" />
+        <!-- 每个分区最大的连接数 -->
+        <property name="maxConnectionsPerPartition" value="150" />
+        <!-- 每个分区最小的连接数 -->
+        <property name="minConnectionsPerPartition" value="5" />
+    </bean>
+
+    <!--注解-->
+    <!--<tx:annotation-driven/>-->
+    <!-- 事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+
+    </bean>
+
+    <!--配置AOP事务-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="find*" propagation="SUPPORTS" read-only="true"/>
+            <tx:method name="*" propagation="SUPPORTS" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut
+                expression="execution(* com.iflytek.manage.service..*.*(..))" id="pc"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
+    </aop:config>
 </beans>

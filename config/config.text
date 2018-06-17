@@ -1,0 +1,11 @@
+<bean id="placeholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <!--<value>classpath:/properties/jdbc.properties</value>-->
+                <value>file:/properties/jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+
+
+    配置文件可以放在tomcat根目录里

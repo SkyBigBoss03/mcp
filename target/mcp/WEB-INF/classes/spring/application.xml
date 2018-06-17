@@ -17,7 +17,8 @@
     <bean id="placeholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
-                <value>classpath:/properties/jdbc.properties</value>
+                <!--<value>classpath:/properties/jdbc.properties</value>-->
+                <value>file:/properties/jdbc.properties</value>
             </list>
         </property>
     </bean>

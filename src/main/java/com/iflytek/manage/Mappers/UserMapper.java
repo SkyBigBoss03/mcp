@@ -1,11 +1,10 @@
-package com.iflytek.manage.service;
-
+package com.iflytek.manage.Mappers;
 
 import com.iflytek.manage.pojo.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserMapper {
 
     List<User> findAll();
 }

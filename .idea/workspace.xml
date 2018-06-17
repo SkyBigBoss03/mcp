@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19237078-713c-407d-a01d-fd03baed6527" name="Default" comment="" />
+    <list default="true" id="19237078-713c-407d-a01d-fd03baed6527" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +67,7 @@
     <favorites_list name="mcp-manage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,9 +82,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mcp-manage" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode />
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="HierarchyBrowserManager">
@@ -100,16 +106,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/reasources/spring/application.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/pojo/User.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/Mappers/UserMapper.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/reasources/spring/application-mybatis.xml" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/../mcp-manage/src/main/reasources/spring/application.xml" />
-        <option value="$PROJECT_DIR$/../mcp-manage/config/config.text" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/Mappers/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iflytek/manage/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/reasources/mybatis/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/reasources/spring/application-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/reasources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/reasources/spring/application.xml" />
+        <option value="$PROJECT_DIR$/config/config.text" />
       </list>
     </option>
   </component>
@@ -130,7 +136,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\maven_resource" />
-        <option name="mavenHome" value="$PROJECT_DIR$/..//apache-maven-3.3.9" />
+        <option name="mavenHome" value="D:////apache-maven-3.3.9" />
         <option name="userSettingsFile" value="C:\Users\DELL\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -181,65 +187,6 @@
               <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="reasources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcp-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="reasources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:3.4.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:3.4.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-3.4.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcp-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:3.4.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-3.4.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="pagehelper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -252,7 +199,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -407,7 +354,16 @@
       <option name="presentableId" value="Default" />
       <updated>1529152748939</updated>
       <workItem from="1529152750808" duration="12379000" />
-      <workItem from="1529236917597" duration="3741000" />
+      <workItem from="1529236917597" duration="4126000" />
+      <workItem from="1529241329398" duration="32000" />
+      <workItem from="1529241485280" duration="48000" />
+      <workItem from="1529241819242" duration="128000" />
+      <workItem from="1529241952191" duration="157000" />
+      <workItem from="1529242116293" duration="59000" />
+      <workItem from="1529242181420" duration="66000" />
+      <workItem from="1529242254979" duration="7000" />
+      <workItem from="1529242268331" duration="26000" />
+      <workItem from="1529242297384" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="fffff">
       <created>1529166847839</created>
@@ -427,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16120000" />
+    <option name="totallyTimeSpent" value="17031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="680" extended-state="0" />
@@ -445,24 +401,24 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.22426471" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37937385" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.20994475" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37937385" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78635013" visible="true" weight="0.25374377" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78268874" visible="true" weight="0.29450914" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.21364985" side_tool="true" visible="true" weight="0.25374377" />
+      <window_info id="Favorites" order="2" sideWeight="0.21731123" side_tool="true" visible="true" weight="0.29450914" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3290441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.22426471" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.031613976" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -480,23 +436,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mcp-manage/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
-    <entry file="jar://$PROJECT_DIR$/../mcp-manage/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class" />
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/webapp/WEB-INF/views/index.jsp.tld" />
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp.tld" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,7 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
@@ -535,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/properties/image.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/properties/image.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.3.RELEASE/spring-jdbc-4.1.3.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184">
@@ -543,8 +496,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/com/iflytek/manage/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/com/iflytek/manage/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/IndexController.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31be555a-cb71-4506-a747-2a6b4f90fbf3/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -558,113 +511,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="49" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/spring/application-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/spring/application-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/mybatis/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mappers/mybatis-config.xml.tld">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mappers/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/java/com/iflytek/manage/Mappers/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/mybatis/mappers/mybatis-config.xml.tld" />
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/mybatis/mappers/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iflytek/manage/Mappers/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/spring/application-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/spring/application-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
@@ -696,38 +598,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/mybatis/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/config/config.text">
+    <entry file="file://$PROJECT_DIR$/config/config.text">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/config/properties/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/config/properties/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mcp-manage/src/main/reasources/spring/application.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/spring/application.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="23" column="11" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/reasources/mybatis/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
